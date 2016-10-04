@@ -8,3 +8,5 @@ Scripts - The scripts I wrote for my Unity project.
 Prefabs - Two  meshes I made with Blender. One has more vertices than the other.
 
 Build -  Download the build (.exe file with data) at Dropbox.
+
+Video - Watch a video demonstration of the concept on our Youtube channel.
