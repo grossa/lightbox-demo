@@ -2,6 +2,7 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
+// Same script as HemisphereController.cs, but for the last scene with a different set of images
 public class HemisphereControllerTable2 : MonoBehaviour
 {
     public GameObject Hemisphere;
