@@ -11,4 +11,4 @@ Scripts - The scripts I wrote for my Unity project.
 
 Prefabs - Two meshes I made with Blender that are used in the project. One has more vertices than the other.
 
-Build -  Download the build (.exe file with data) at Dropbox: https://www.dropbox.com/s/2oi9z743m7pye6e/Builds.zip?dl=0
+Build -  Download the build at Dropbox (.exe file with data, 1.02 GB): https://www.dropbox.com/s/2oi9z743m7pye6e/Builds.zip?dl=0
