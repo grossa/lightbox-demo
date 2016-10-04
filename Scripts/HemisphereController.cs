@@ -2,6 +2,7 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
+// Main script to update the texture of the hemisphere with the fisheye image, based on the user's x head position
 public class HemisphereController : MonoBehaviour
 {
     public GameObject Hemisphere;
