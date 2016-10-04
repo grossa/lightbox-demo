@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
-using VRStandardAssets.Utils;
 
 public class HemisphereController : MonoBehaviour
 {
@@ -22,12 +21,12 @@ public class HemisphereController : MonoBehaviour
     private float bx;
     private int index = 0;
 
-    // Use this for initialization
     void Start()
     {
         // Imports global parameters
         vars = Hemisphere.GetComponent<GlobalVariables>();
     
+        // Calculates bounds for interpolation
         LeftBound = -(vars.RigLength / 2.0f * 2.54f) / 100.0f;
         RightBound = (vars.RigLength / 2.0f * 2.54f) / 100.0f;
 
@@ -55,13 +54,9 @@ public class HemisphereController : MonoBehaviour
         transform.position = new Vector3(LeftCamera.transform.position.x, LeftCamera.transform.position.y, LeftCamera.transform.position.z + vars.zDistance);
         transform.eulerAngles = new Vector3(0, LeftCamera.transform.eulerAngles.y, 180);
 
-        // Use this instead of the previous for the Dome180 mesh
-        //transform.eulerAngles = new Vector3(0, LeftCamera.transform.eulerAngles.y, -90);
-
         initialPositionX = LeftCamera.transform.position.x;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -87,6 +82,7 @@ public class HemisphereController : MonoBehaviour
             }
         }
 
+        // Change scenes with Keyboard
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
