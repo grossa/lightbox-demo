@@ -2,6 +2,7 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
+// Same script as HemisphereController.cs, but for the next scene with a different set of images
 public class HemisphereControllerMinerals : MonoBehaviour
 {
     public GameObject Hemisphere;
