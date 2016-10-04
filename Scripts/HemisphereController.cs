@@ -83,7 +83,7 @@ public class HemisphereController : MonoBehaviour
             }
         }
 
-        // Change scenes with Keyboard
+        // Change scenes with keyboard input
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
