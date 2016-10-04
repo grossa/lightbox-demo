@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// This class helps center the UI elements so they are fixed at the center of the image
 public class CenterUIElement : MonoBehaviour {
 
     public GameObject LeftDome180;
