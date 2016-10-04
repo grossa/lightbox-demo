@@ -2,6 +2,7 @@
 Scripts, prefabs, and runnable application of light-field imaging concept. Built using Unity3D and tested with Oculus Rift CV1. 
 
 More about Lightbox: https://youtu.be/TkLfB4Nauik
+
 Questions: Email me at adam@lightboxvr.io
 
 Contents:
