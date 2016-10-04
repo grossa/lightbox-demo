@@ -3,7 +3,6 @@ Scripts, prefabs, and runnable application of light-field imaging concept. Built
 
 More about Lightbox: https://youtu.be/TkLfB4Nauik
 
-
 Contents:
 
 Scripts - The scripts I wrote for my Unity project.
