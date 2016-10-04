@@ -1,7 +1,7 @@
 # lightbox-demo
 Scripts, prefabs, and runnable application of light-field imaging concept. Built using Unity3D and tested with Oculus Rift CV1.
 
-Build -  Download the build at Dropbox (.exe file with data, 1.02 GB): https://www.dropbox.com/s/2oi9z743m7pye6e/Builds.zip?dl=0
+Download the build at Dropbox (.exe file with data, 1.02 GB): https://www.dropbox.com/s/2oi9z743m7pye6e/Builds.zip?dl=0
 
 More about Lightbox: https://youtu.be/TkLfB4Nauik
 
