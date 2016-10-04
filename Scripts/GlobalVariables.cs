@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// Defines global variables which can be accessed and modified in the inspector window of the Hemisphere game object
 public class GlobalVariables : MonoBehaviour {
 
     public float RigLength;
