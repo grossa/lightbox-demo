@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
-using VRStandardAssets.Utils;
 
 public class HemisphereControllerMinerals : MonoBehaviour
 {
@@ -22,7 +21,6 @@ public class HemisphereControllerMinerals : MonoBehaviour
     private float bx;
     private int index = 0;
 
-    // Use this for initialization
     void Start()
     {
         // Imports global parameters
@@ -47,14 +45,10 @@ public class HemisphereControllerMinerals : MonoBehaviour
         // Centers and rotates the hemisphere to face the camera, fixes it a z distance away
         transform.position = new Vector3(LeftCamera.transform.position.x, LeftCamera.transform.position.y, LeftCamera.transform.position.z + vars.zDistance);
         transform.eulerAngles = new Vector3(0, LeftCamera.transform.eulerAngles.y, 180);
-
-        // Use this instead of the previous for the Dome180 mesh
-        //transform.eulerAngles = new Vector3(0, LeftCamera.transform.eulerAngles.y, -90);
-
+        
         initialPositionX = LeftCamera.transform.position.x;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
